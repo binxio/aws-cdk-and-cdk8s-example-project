@@ -1,0 +1,6 @@
+aws-cdk-lib==2.73.0
+aws-cdk.lambda-layer-kubectl-v25==2.0.3
+pyyaml==6.0
+cdk8s==2.7.54
+cdk8s-plus-25==2.6.18
+constructs>=10.0.0,<11.0.0
