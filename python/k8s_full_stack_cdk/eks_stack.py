@@ -40,7 +40,7 @@ class EKSStack(NestedStack):
         # importing existing iam user
         admin_user = iam.User.from_user_arn(
             self, 'imported_user',
-            user_arn='arn:aws:iam::970059968789:user/iam_user' # change me
+            user_arn='arn:aws:iam::<account_id>:user/<iam_user>' # change me
         )
         self.cluster.aws_auth.add_user_mapping(admin_user, groups=["system:masters"])
 
