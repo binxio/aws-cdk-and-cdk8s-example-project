@@ -10,3 +10,8 @@ The `cdk.json` file tells the CDK toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
  * `go test`         run unit tests
+
+## Pass environment in the context
+
+ * `cdk deploy --context environment=development`     deploy this stack to your development environment
+ * `cdk synth --context environment=development`      emits the synthesized CloudFormation template for your development environment

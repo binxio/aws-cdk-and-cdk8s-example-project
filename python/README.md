@@ -55,4 +55,9 @@ command.
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
 
+## Pass environment in the context
+
+ * `cdk deploy --context environment=development`     deploy this stack to your development environment
+ * `cdk synth --context environment=development`      emits the synthesized CloudFormation template for your development environment
+
 Enjoy!
